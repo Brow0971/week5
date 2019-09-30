@@ -1,0 +1,29 @@
+.nav-links:hover{
+    background-color: red;
+}
+
+.nav-links:active{
+    background-color: green;
+    border: 10px solid blue;
+}
+.form-fields:optional:focus{
+    border: 2px solid green;
+}
+.form-fields:required{
+    border: 2px solid red; 
+}
+
+.nav-links:nth-child(even){
+    background-color: yellow;
+}
+
+.form-container h3:hover::after{
+    content:" RIGHT NOW!";
+    color: purple;
+}
+
+/* pseudo classes affect existing elements based on a condition */
+
+
+/* shortcut in visual studio code for quickly commenting something control+k+c */
+/* to uncomment something control+k+u  */

@@ -1,0 +1,10 @@
+.image-container{
+    display: inline-block;
+    background-image: url("https://picsum.photos/200/300");
+    height: 300px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid blue;
+}
